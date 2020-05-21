@@ -31,6 +31,7 @@ call :download "Valve.Steam"
 call :download "EpicGames.EpicGamesLauncher"
 call :download "Discord.Discord"
 call :download "OBSProject/OBSStudio"
+call :download "canonical.ubuntu"
 
 REM Download function
 :download

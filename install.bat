@@ -3,6 +3,7 @@ rem Microsoft
 call :download "Windows.WindowsTerminal"
 call :download "Microsoft.Powertoys"
 call :download "Microsoft.VisualStudioCode"
+call :download "Microsoft.PowerBI"
 
 rem Productivity Utils
 call :download "7zip.7zip"
@@ -18,6 +19,7 @@ call :download "Github.GitHubDesktop"
 
 rem Development Environments
 call :download "Python.Python"
+call :download "OpenJS.NodeJS"
 
 rem Utils
 call :download "qBittorrent.qBittorrent"
@@ -28,6 +30,7 @@ rem Gaming
 call :download "Valve.Steam"
 call :download "EpicGames.EpicGamesLauncher"
 call :download "Discord.Discord"
+call :download "OBSProject/OBSStudio"
 
 REM Download function
 :download

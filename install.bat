@@ -25,7 +25,10 @@ rem Utils
 call :download "qBittorrent.qBittorrent"
 call :download "Apple.iTunes"
 call :download "Bitwarden.Bitwarden"
+
+rem Messaging
 call :download "Signal.Signal"
+call :download "WhatsApp.WhatsApp"
 
 rem Gaming
 call :download "Valve.Steam"

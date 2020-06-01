@@ -24,6 +24,7 @@ call :download "OpenJS.NodeJS"
 rem Utils
 call :download "qBittorrent.qBittorrent"
 call :download "Apple.iTunes"
+call :download "t1m0thyj.WinDynamicDesktop"
 call :download "Bitwarden.Bitwarden"
 
 rem Messaging

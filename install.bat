@@ -38,7 +38,16 @@ call :download "Discord.Discord"
 call :download "OBSProject/OBSStudio"
 call :download "canonical.ubuntu"
 
+call :npm "vercel"
+call :npm "fast-cli"
+call :npm "speed-test"
+
 REM Download function
 :download
 winget install %~1
+if %ERRORLEVEL% EQU 0 Echo %~1 installed successfully.  
+
+REM NPM Download function
+:npm
+npm i -g %~1
 if %ERRORLEVEL% EQU 0 Echo %~1 installed successfully.  

@@ -42,6 +42,7 @@ call :download "canonical.ubuntu"
 call :npm "vercel"
 call :npm "fast-cli"
 call :npm "speed-test"
+call :npm "expo-cli"
 
 REM Download function
 :download

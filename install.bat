@@ -20,6 +20,7 @@ call :download "Github.GitHubDesktop"
 rem Development Environments
 call :download "Python.Python"
 call :download "OpenJS.NodeJS"
+call :download "Docker.DockerDesktop"
 
 rem Utils
 call :download "qBittorrent.qBittorrent"
